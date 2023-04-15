@@ -11,7 +11,7 @@
 
 ## Introduktion
 
-Linux er et open source-operativsystem, der er kendt for sin stabilitet, sikkerhed og fleksibilitet. Operativsystemet anvendes af mange programmerere og systemadministratorer på grund af dets evne til at tilpasses og modificeres til forskellige formål.
+Linux er et open source-operativsystem, der er kendt for sin stabilitet, sikkerhed og fleksibilitet. Operativsystemet anvendes af mange programmørere og systemadministratorer på grund af dets evne til at tilpasses og modificeres til forskellige formål.
 
 ## Hvorfor Linux?
 
@@ -27,11 +27,11 @@ Linux er et open source-operativsystem, der er kendt for sin stabilitet, sikkerh
 
 ## Installation
 
-For at installere Linux, skal du først downloade en Linux-distribution. Nogle af de mest populære distributioner inkluderer Ubuntu, Debian, Fedora, Arch, Gentoo og CentOS.
+For at installere Linux, skal du først downloade en Linux-distribution. Nogle af de mest populære [distributioner](https://distrowatch.com/) inkluderer `Ubuntu`, `Debian`, `Fedora`, `Arch`, `Gentoo` og `CentOS`.
 
 ---
 
-Når du har downloadet ISO filen, kan du "flashe" den på en USB. Det kan du gøre via `Rofus`, eller `Balena etcher`. Det kan være nødvendigt at slå "fast boot" fra.
+Når du har downloadet ISO filen, kan du "flashe" den på en USB. Det kan du gøre via [Rufus](https://rufus.ie/en/), eller [Balena Etcher](https://www.balena.io/etcher). Det kan være nødvendigt at slå [fast startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10) fra.
 
 Når du har bootet fra USB, vil du blive typisk blive guidet igennem installationsprocessen. Det er MEGET vigtigt at vælge de rigtige partitions til installation af Linux, så sørg for at backupe din data, før du fortsætter.
 
