@@ -42,9 +42,7 @@ and supercomputers. This makes it ideal for both small and large projects, and
 it can easily be scaled up or down as needed.
 
 **Freedom to Choose:** With Linux, you have the freedom to choose and
-[customize](https://www.reddit.com/r/unixporn/) your software, including the
-operating system, [desktop
-environment](https://wiki.gentoo.org/wiki/Desktop_environment), applications,
+[customize](https://www.reddit.com/r/unixporn/) your software, including the operating system, [desktop environment](https://wiki.gentoo.org/wiki/Desktop_environment), applications,
 and tools. This allows programmers and IT professionals to work with the tools
 they prefer and tailor their workflows to their needs.
 
@@ -64,8 +62,7 @@ most popular [distributions](https://distrowatch.com/) include `Ubuntu`,
 
 Once you have downloaded the ISO file, you can "flash" it onto a USB drive
 using tools like [Rufus](https://rufus.ie/en/) or [Balena
-Etcher](https://www.balena.io/etcher). You may need to disable [fast
-startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10).
+Etcher](https://www.balena.io/etcher). You may need to disable [fast startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10).
 
 After booting from the USB drive, you will typically be guided through the
 installation process. It is VERY important to choose the correct partitions for
@@ -78,8 +75,7 @@ installing Linux, so make sure to back up your data before proceeding.
 ### The Terminal
 
 The terminal is one of the most important features in Linux, used to
-communicate with the operating system via commands. You can typically [open the
-terminal](https://www.makeuseof.com/how-to-open-terminal-in-linux/) by pressing
+communicate with the operating system via commands. You can typically [open the terminal](https://www.makeuseof.com/how-to-open-terminal-in-linux/) by pressing
 `Ctrl + Alt + T` or by searching for it in the start menu. Your terminal will
 typically use `bash` as your
 [shell](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html).
@@ -90,8 +86,7 @@ Bash is the most widespread and considered the "standard." Other shells include
 
 ### The File System
 
-Linux has a hierarchical [file
-system](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs),
+Linux has a hierarchical [file system](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs),
 where all files and directories are placed under a root directory, typically
 `/`. Other important directories include `/home`, which contains user data, and
 `/var`, which contains system log files.
