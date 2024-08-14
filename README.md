@@ -89,6 +89,7 @@ where all files and directories are placed under a root directory, typically
 ### Package Managers
 
 [Package management](https://itsfoss.com/package-manager/) is an important
+
 feature in Linux that allows you to easily and securely install and manage
 software on your computer. Some of the most popular package managers include
 `apt`, `yum`, `pacman`, `portage`, and `dnf`.
