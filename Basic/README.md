@@ -19,6 +19,21 @@ fundamental for any Linux user. These commands allow you to move around the
 file system, create and remove directories, and list directory contents, which
 are essential skills for managing files and directories efficiently.
 
+### Help and Progression
+
+If you're stuck:
+
+* **Consult the man pages:** Use `man <command>` to read the manual for each
+command (e.g., `man ls`).
+* **Search online:** Websites like Stack Overflow and Linux forums can provide
+answers to common issues.
+* **Practice with examples:** Try different options and arguments with each
+command to see how they work.
+* **Ask for help:** If you're in a learning group or class, don't hesitate to
+ask peers or instructors for assistance.
+* **Use tools:** You can use curl to find information about a command `curl
+cht.sh/ls`, can show very useful information about ls can be used.
+
 ---
 
 # Task 2: Managing Files and Directories
