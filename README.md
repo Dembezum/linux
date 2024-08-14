@@ -1,84 +1,119 @@
-# Starter guide til Linux
+
+# Starter Guide to Linux
 
 ## Overview
 
-- [Introduktion](#introduktion)
-- [Hvorfor Linux?](#hvorfor-linux)
+- [Introduction](#introduction)
+- [Why Linux?](#why-linux)
 - [Installation](#installation)
-- [Terminalen](#terminalen)
-- [Filsystemet](#filsystemet)
-- [Ressourcer](#nyttige-ressourcer)
-- [Package managers](#package-managers)
+- [The Terminal](#the-terminal)
+- [The File System](#the-file-system)
+- [Resources](#useful-resources)
+- [Package Managers](#package-managers)
 
-## Introduktion
+## Introduction
 
-Linux er et open source-operativsystem, der er kendt for sin stabilitet,
-sikkerhed og fleksibilitet. Operativsystemet anvendes af mange programmørere og
-systemadministratorer på grund af dets evne til at tilpasses og modificeres til
-forskellige formål.
+Linux is technically a kernel, which is the core part of an operating system.
+However, it is often referred to as an operating system because it is commonly
+used with a collection of software tools and libraries that make up a complete
+OS. It is known for its stability, security, and flexibility. It is widely used
+by programmers and system administrators due to its ability to be customized
+and modified for various purposes.
 
-## Hvorfor Linux?
+## Why Linux?
 
-**Open source:** Linux er et open-source operativsystem, hvilket betyder, at
-dets kildekode er tilgængelig for alle og kan tilpasses og distribueres frit.
-Det giver programmører og datateknikkere mulighed for at tilpasse og optimere
-deres systemer til deres specifikke behov.
+**Open Source:** Linux is an open-source kernel, meaning its source code is
+available to everyone and can be freely modified and distributed. This allows
+programmers and IT professionals to customize and optimize their systems to
+meet their specific needs.
 
-**Stabilitet og sikkerhed:** Linux er kendt for sin stabilitet og sikkerhed, da
-det er mindre sårbart over for malware og hacking end Windows og macOS. Dette
-skyldes bl.a. den strenge adgangskontrol og adskillelse af brugerrettigheder,
-som er indbygget i Linux.
+**Open Source:** Linux is an open-source operating system, meaning its source
+code is available to everyone and can be freely modified and distributed. This
+allows programmers and IT professionals to customize and optimize their systems
+to meet their specific needs.
 
-**Scaleable:** Linux kan køre på alt fra små enheder til store servere og
-supercomputere. Dette gør det ideelt til både små og store projekter, og det
-kan nemt skaleres op eller ned efter behov.
+**Stability and Security:** Linux is known for its stability and security,
+being less vulnerable to malware and hacking compared to Windows and macOS.
+This is partly due to the strict access control and separation of user
+privileges built into Linux.
 
-**Frihed til at vælge:** Med Linux har man frihed til at vælge og
-[tilpasse](https://www.reddit.com/r/unixporn/) sin software, herunder
-operativsystemet, [desktop
-environment](https://wiki.gentoo.org/wiki/Desktop_environment), programmer og
-værktøjer. Det giver programmører og datateknikkere mulighed for at arbejde med
-de værktøjer, de foretrækker og tilpasse deres arbejdsgange efter deres behov.
+**Scalable:** Linux can run on everything from small devices to large servers
+and supercomputers. This makes it ideal for both small and large projects, and
+it can easily be scaled up or down as needed.
 
-**Fællesskab og support:** Linux har et stort og aktivt
-[fællesskab](https://www.reddit.com/r/linux/) af udviklere og brugere, som
-tilbyder gratis support, hjælp og vejledning. Det kan være meget nyttigt for
-programmører og datateknikkere, der støder på tekniske udfordringer eller har
-brug for hjælp til at vælge de bedste værktøjer til deres arbejde.
+**Freedom to Choose:** With Linux, you have the freedom to choose and
+[customize](https://www.reddit.com/r/unixporn/) your software, including the
+operating system, [desktop
+environment](https://wiki.gentoo.org/wiki/Desktop_environment), applications,
+and tools. This allows programmers and IT professionals to work with the tools
+they prefer and tailor their workflows to their needs.
+
+**Community and Support:** Linux has a large and active
+[community](https://www.reddit.com/r/linux/) of developers and users who offer
+free support, help, and guidance. This can be very useful for programmers and
+IT professionals who encounter technical challenges or need help choosing the
+best tools for their work.
 
 ## Installation
 
-For at installere Linux, skal du først downloade en Linux-distribution. Nogle af de mest populære [distributioner](https://distrowatch.com/) inkluderer `Ubuntu`, `Debian`, `Fedora`, `Arch`, `Gentoo` og `CentOS`.
+To install Linux, you first need to download a Linux distribution. Some of the
+most popular [distributions](https://distrowatch.com/) include `Ubuntu`,
+`Debian`, `Fedora`, `Arch`, `Gentoo`, and `CentOS`.
 
 ---
 
-Når du har downloadet ISO filen, kan du "flashe" den på en USB. Det kan du gøre via [Rufus](https://rufus.ie/en/), eller [Balena Etcher](https://www.balena.io/etcher). Det kan være nødvendigt at slå [fast startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10) fra.
+Once you have downloaded the ISO file, you can "flash" it onto a USB drive
+using tools like [Rufus](https://rufus.ie/en/) or [Balena
+Etcher](https://www.balena.io/etcher). You may need to disable [fast
+startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10).
 
-Når du har bootet fra USB, vil du typisk blive guidet igennem installationsprocessen. Det er MEGET vigtigt at vælge de rigtige partitions til installation af Linux, så sørg for at backupe din data, før du fortsætter.
+After booting from the USB drive, you will typically be guided through the
+installation process. It is VERY important to choose the correct partitions for
+installing Linux, so make sure to back up your data before proceeding.
 
 > Backup, backup, backup!
 
-## Grundlæggende Linux-funktioner
+## Basic Linux Features
 
-### Terminalen
+### The Terminal
 
-Terminalen er en af de vigtigste funktioner i Linux, og den bruges til at kommunikere med operativsystemet via kommandoer. Du kan typisk [åbne terminalen](https://www.makeuseof.com/how-to-open-terminal-in-linux/) ved at trykke på `Ctrl + Alt + T` eller ved at søge efter den i startmenuen.
-Typisk vil din terminal bruge `bash` som din [shell](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html). Bash er mest udbredt og ses som "standarden". Der findes andre shells, som `fish` og`zsh`.
+The terminal is one of the most important features in Linux, used to
+communicate with the operating system via commands. You can typically [open the
+terminal](https://www.makeuseof.com/how-to-open-terminal-in-linux/) by pressing
+`Ctrl + Alt + T` or by searching for it in the start menu. Your terminal will
+typically use `bash` as your
+[shell](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html).
+Bash is the most widespread and considered the "standard." Other shells include
+`fish` and `zsh`.
 
 > With great power comes great responsibility.
 
-### Filsystemet
+### The File System
 
-Linux har et hierarkisk [filsystem](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs), hvor alle filer og mapper er placeret under en root-mappe, som typisk er `/`. Andre vigtige mapper inkluderer `/home`, som indeholder brugerdata, og `/var`, som indeholder systemlogfiler.
+Linux has a hierarchical [file
+system](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/reference_guide/s1-filesystem-fhs),
+where all files and directories are placed under a root directory, typically
+`/`. Other important directories include `/home`, which contains user data, and
+`/var`, which contains system log files.
 
-### Package managers
+### Package Managers
 
-[pakkehåndtering](https://itsfoss.com/package-manager/) er en vigtig funktion i Linux, der gør det muligt, nemt og for det meste sikkert  at installere og administrere software på din computer. Nogle af de mest populære package managers inkluderer `apt`, `yum`, `pacman`, `portage` og `dnf`.
+[Package management](https://itsfoss.com/package-manager/) is an important
+feature in Linux that allows you to easily and securely install and manage
+software on your computer. Some of the most popular package managers include
+`apt`, `yum`, `pacman`, `portage`, and `dnf`.
 
-## Nyttige ressourcer
+## Useful Resources
 
-- [Linux Journey](https://linuxjourney.com/) - En interaktiv tutorial om Linux-operativsystemet og dens komponenter.
-- [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/) - En omfattende introduktion til Linux og dens vigtigste funktioner og værktøjer.
-- [Ubuntu Help](https://help.ubuntu.com/community/UsingTheTerminal) - En guide til at bruge terminalen på Ubuntu-operativsystemet, inklusive grundlæggende kommandoer og tip.
-- [Linux Command Library](https://lym.readthedocs.io/en/latest/) - En lærebog i Linux-kommandoer og systemadministration.
-- [Ryan's Tutorials](https://ryanstutorials.net/linuxtutorial/) - En praktisk guide til at lære Linux-terminalen fra bunden og opbygge gradvist kompleksitet.
+- [Linux Journey](https://linuxjourney.com/) - An interactive tutorial on the
+Linux operating system and its components.
+- [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/) - A
+comprehensive introduction to Linux and its key features and tools.
+- [Ubuntu Help](https://help.ubuntu.com/community/UsingTheTerminal) - A guide
+to using the terminal on the Ubuntu operating system, including basic commands
+and tips.
+- [Linux Command Library](https://lym.readthedocs.io/en/latest/) - A textbook
+on Linux commands and system administration.
+- [Ryan's Tutorials](https://ryanstutorials.net/linuxtutorial/) - A practical
+guide to learning the Linux terminal from scratch and gradually building
+complexity.
