@@ -7,6 +7,7 @@
 **Commands to Practice:** `pwd`, `ls`, `cd`, `mkdir`, `rmdir`
 
 **Task Description:**
+
 * Start in your home directory (`~`).
 * Create a new directory named `test_directory` using the `mkdir` command.
 * Move into this directory using the `cd` command.
@@ -29,6 +30,7 @@ are essential skills for managing files and directories efficiently.
 **Commands to Practice:** `cp`, `mv`, `rm`
 
 **Task Description:**
+
 * Copy a file from one directory to another using the `cp` command.
 * Rename a file using the `mv` command.
 * Delete a file using the `rm` command.
@@ -46,6 +48,7 @@ operations for organizing and maintaining your file system.
 **Commands to Practice:** `uname`, `df`, `free`, `top`
 
 **Task Description:**
+
 * Use the `uname` command to display system information.
 * Check disk space usage with `df`.
 * View memory usage with `free`.
@@ -65,6 +68,7 @@ monitor and manage system resources effectively.
 **Commands to Practice:** `find`, `locate`
 
 **Task Description:**
+
 * Search for a specific file using the `find` command.
 * Use the `locate` command to find the path of a file.
 
@@ -82,6 +86,7 @@ These tools are essential for efficient file management.
 **Commands to Practice:** `cat`, `less`, `grep`, `cut`
 
 **Task Description:**
+
 * Display the contents of a file using `cat`.
 * Read a file page by page using `less`.
 * Search for a specific pattern within a file using `grep`.
