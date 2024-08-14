@@ -12,9 +12,67 @@
 * Make the script executable using `chmod +x`.
 * Execute the script using `./script_name.sh`.
 
-**Why:** Shell scripting is a powerful tool for automating repetitive tasks and
-managing system operations. Learning how to write and execute shell scripts can
-significantly enhance your productivity and efficiency in a Linux environment.
+**Why:** Shell scripting is a powerful tool for automating repetitive tasks and managing system operations. Learning how to write and execute shell scripts can significantly enhance your productivity and efficiency in a Linux environment.
+
+### Example
+
+1. **Create a Shell Script:**
+
+   Open your favorite text editor and create a file named `hello_world.sh` with the following content:
+
+   ```bash
+   #!/bin/bash
+   echo "Hello, World!"
+   ```
+
+2. **Make the Script Executable:**
+
+   Use the `chmod` command to make the script executable:
+
+   ```sh
+   chmod +x hello_world.sh
+   ```
+
+3. **Execute the Script:**
+
+   Run the script using the following command:
+
+   ```sh
+   ./hello_world.sh
+   ```
+
+   You should see the output:
+
+   ```sh
+   Hello, World!
+   ```
+
+### Help and Progression
+
+If you're stuck:
+
+* **Consult the man pages:** Use `man <command>` to read the manual for each command (e.g., `man bash`).
+* **Search online:** Websites like Stack Overflow and Linux forums can provide answers to common issues.
+* **Practice with examples:** Try different options and arguments with each command to see how they work.
+* **Ask for help:** If you're in a learning group or class, don't hesitate to ask peers or instructors for assistance.
+
+#### Create your own little script Now you will create your own little shell
+
+script. You should decide what it should do, it could count from 1 to 10,
+display basic addition, multiplication or division, make automate creating a
+user, making directories or creating a file. You can also make a script that
+will display the current date and time. The possibilities are endless.
+
+> It's now up to you to decide what your script will do. You can always ask for
+> help or inspiration. Search the internet yourself, and figure out how to
+> complete the task on your own. It's a great way to learn!
+
+**Task Description:**
+
+* Create a bash script that includes some basic programming paradigms. For
+example, you can include loops, conditional statements, and functions.
+* Make the script executable using `chmod +x`.
+* Execute the script using `./script_name.sh`.
 
 ---
 
