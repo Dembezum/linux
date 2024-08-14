@@ -1,7 +1,8 @@
 # Starter guide til Linux
 
 ## Overview
-- [Introduktion](#Introduktion)
+
+- [Introduktion](#introduktion)
 - [Hvorfor Linux?](#hvorfor-linux)
 - [Installation](#installation)
 - [Terminalen](#terminalen)
@@ -64,9 +65,7 @@ Når du har bootet fra USB, vil du typisk blive guidet igennem installationsproc
 Terminalen er en af de vigtigste funktioner i Linux, og den bruges til at kommunikere med operativsystemet via kommandoer. Du kan typisk [åbne terminalen](https://www.makeuseof.com/how-to-open-terminal-in-linux/) ved at trykke på `Ctrl + Alt + T` eller ved at søge efter den i startmenuen.
 Typisk vil din terminal bruge `bash` som din [shell](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html). Bash er mest udbredt og ses som "standarden". Der findes andre shells, som `fish` og`zsh`.
 
-
 > With great power comes great responsibility.
-
 
 ### Filsystemet
 
@@ -83,4 +82,3 @@ Linux har et hierarkisk [filsystem](https://access.redhat.com/documentation/en-u
 - [Ubuntu Help](https://help.ubuntu.com/community/UsingTheTerminal) - En guide til at bruge terminalen på Ubuntu-operativsystemet, inklusive grundlæggende kommandoer og tip.
 - [Linux Command Library](https://lym.readthedocs.io/en/latest/) - En lærebog i Linux-kommandoer og systemadministration.
 - [Ryan's Tutorials](https://ryanstutorials.net/linuxtutorial/) - En praktisk guide til at lære Linux-terminalen fra bunden og opbygge gradvist kompleksitet.
-
