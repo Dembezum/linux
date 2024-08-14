@@ -51,28 +51,10 @@
 
 If you're stuck:
 
-* **Consult the man pages:** Use `man <command>` to read the manual for each command (e.g., `man bash`).
-* **Search online:** Websites like Stack Overflow and Linux forums can provide answers to common issues.
+* **Consult the man pages:** Use `man <command>` to read the manual for each command (e.g., `man bash`). [Linux Man Pages](https://man7.org/linux/man-pages/)
+* **Search online:** Websites like [Stack Overflow](https://stackoverflow.com/) and [Linux forums](https://www.linuxquestions.org/questions/) can provide answers to common issues.
 * **Practice with examples:** Try different options and arguments with each command to see how they work.
 * **Ask for help:** If you're in a learning group or class, don't hesitate to ask peers or instructors for assistance.
-
-#### Create your own little script Now you will create your own little shell
-
-script. You should decide what it should do, it could count from 1 to 10,
-display basic addition, multiplication or division, make automate creating a
-user, making directories or creating a file. You can also make a script that
-will display the current date and time. The possibilities are endless.
-
-> It's now up to you to decide what your script will do. You can always ask for
-> help or inspiration. Search the internet yourself, and figure out how to
-> complete the task on your own. It's a great way to learn!
-
-**Task Description:**
-
-* Create a bash script that includes some basic programming paradigms. For
-example, you can include loops, conditional statements, and functions.
-* Make the script executable using `chmod +x`.
-* Execute the script using `./script_name.sh`.
 
 ---
 
@@ -90,11 +72,36 @@ example, you can include loops, conditional statements, and functions.
 * View ACLs using `getfacl`.
 * Modify the default file creation permissions using `umask`.
 
-**Why:** Advanced permissions management is crucial for fine-grained access
-control. ACLs provide more flexibility than traditional Unix permissions,
-allowing you to specify permissions for individual users and groups.
-Understanding `umask` helps you control the default permissions for newly
-created files and directories.
+**Why:** Advanced permissions management is crucial for fine-grained access control. ACLs provide more flexibility than traditional Unix permissions, allowing you to specify permissions for individual users and groups. Understanding `umask` helps you control the default permissions for newly created files and directories.
+
+### Example
+
+1. **Set ACLs:**
+
+   ```sh
+   setfacl -m u:username:rwx filename
+   ```
+
+2. **View ACLs:**
+
+   ```sh
+   getfacl filename
+   ```
+
+3. **Modify umask:**
+
+   ```sh
+   umask 022
+   ```
+
+### Help and Progression
+
+If you're stuck:
+
+* **Consult the man pages:** Use `man <command>` to read the manual for each command (e.g., `man setfacl`). [Linux Man Pages](https://linux.die.net/man/)
+* **Search online:** Websites like [Stack Overflow](https://stackoverflow.com/) and [Linux forums](https://www.linuxquestions.org/questions/) can provide answers to common issues.
+* **Practice with examples:** Try different options and arguments with each command to see how they work.
+* **Ask for help:** If you're in a learning group or class, don't hesitate to ask peers or instructors for assistance.
 
 ---
 
@@ -112,72 +119,39 @@ created files and directories.
 * Manage network connections using `nmcli`.
 * View and modify the routing table using `route`.
 
-**Why:** Network configuration is essential for ensuring proper connectivity
-and communication between systems. These commands help you configure network
-interfaces, manage connections, and control routing, enabling you to set up and
-troubleshoot network settings effectively.
+**Why:** Network configuration is essential for ensuring proper connectivity and communication between systems. These commands help you configure network interfaces, manage connections, and control routing, enabling you to set up and troubleshoot network settings effectively.
 
----
+### Example
 
-# Task 4: System Monitoring and Performance Tuning
+1. **Display Network Interfaces:**
 
-### Objective
+   ```sh
+   ip addr show
+   ```
 
-* **Monitor system performance and tune system settings.**
+2. **Configure Network Interface:**
 
-**Commands to Practice:** `htop`, `iotop`, `vmstat`, `sysctl`
+   ```sh
+   ip addr add 192.168.1.100/24 dev eth0
+   ```
 
-**Task Description:**
+3. **Manage Network Connections:**
 
-* Monitor system processes and resource usage using `htop`.
-* Monitor disk I/O usage using `iotop`.
-* View system performance statistics using `vmstat`.
-* Modify kernel parameters at runtime using `sysctl`.
+   ```sh
+   nmcli device status
+   ```
 
-**Why:** System monitoring and performance tuning are critical for maintaining
-system stability and efficiency. These commands provide insights into system
-resource usage and performance, allowing you to identify bottlenecks and
-optimize system settings for better performance.
+4. **View Routing Table:**
 
----
+   ```sh
+   route -n
+   ```
 
-# Task 5: Package Management
+### Help and Progression
 
-### Objective
+If you're stuck:
 
-* **Master package management for software installation and updates.**
-
-**Commands to Practice:** `apt`, `yum`, `dnf`, `snap`
-
-**Task Description:**
-
-* Install, update, and remove packages using `apt` (Debian-based systems) or
-`yum`/`dnf` (Red Hat-based systems).
-* Manage snap packages using `snap`.
-
-**Why:** Package management is essential for installing and maintaining
-software on your system. These commands help you manage software packages,
-ensuring that you can easily install, update, and remove applications as
-needed.
-
----
-
-# Task 6: Backup and Restore
-
-### Objective
-
-* **Learn how to backup and restore files and directories.**
-
-**Commands to Practice:** `tar`, `rsync`, `dd`
-
-**Task Description:**
-
-* Create a compressed archive of a directory using `tar`.
-* Synchronize files and directories using `rsync`.
-* Create and restore disk images using `dd`.
-
-**Why:** Backup and restore operations are crucial for data protection and
-recovery. These commands help you create backups of important files and
-directories, synchronize data between systems, and create disk images for
-complete system backups, ensuring that you can recover from data loss or system
-failures.
+* **Consult the man pages:** Use `man <command>` to read the manual for each command (e.g., `man ip`). [Linux Man Pages](https://man7.org/linux/man-pages/)
+* **Search online:** Websites like [Stack Overflow](https://stackoverflow.com/) and [Linux forums](https://www.linuxquestions.org/questions/) can provide answers to common issues.
+* **Practice with examples:** Try different options and arguments with each command to see how they work.
+* **Ask for help:** If you're in a learning group or class, don't hesitate to ask peers or instructors for assistance.
