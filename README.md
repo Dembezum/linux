@@ -27,11 +27,6 @@ available to everyone and can be freely modified and distributed. This allows
 programmers and IT professionals to customize and optimize their systems to
 meet their specific needs.
 
-**Open Source:** Linux is an open-source operating system, meaning its source
-code is available to everyone and can be freely modified and distributed. This
-allows programmers and IT professionals to customize and optimize their systems
-to meet their specific needs.
-
 **Stability and Security:** Linux is known for its stability and security,
 being less vulnerable to malware and hacking compared to Windows and macOS.
 This is partly due to the strict access control and separation of user
