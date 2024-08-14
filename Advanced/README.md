@@ -12,13 +12,16 @@
 * Make the script executable using `chmod +x`.
 * Execute the script using `./script_name.sh`.
 
-**Why:** Shell scripting is a powerful tool for automating repetitive tasks and managing system operations. Learning how to write and execute shell scripts can significantly enhance your productivity and efficiency in a Linux environment.
+**Why:** Shell scripting is a powerful tool for automating repetitive tasks and
+managing system operations. Learning how to write and execute shell scripts can
+significantly enhance your productivity and efficiency in a Linux environment.
 
 ### Example
 
 1. **Create a Shell Script:**
 
-   Open your favorite text editor and create a file named `hello_world.sh` with the following content:
+   Open your favorite text editor and create a file named `hello_world.sh` with
+   the following content:
 
    ```bash
    #!/bin/bash
@@ -72,7 +75,11 @@ If you're stuck:
 * View ACLs using `getfacl`.
 * Modify the default file creation permissions using `umask`.
 
-**Why:** Advanced permissions management is crucial for fine-grained access control. ACLs provide more flexibility than traditional Unix permissions, allowing you to specify permissions for individual users and groups. Understanding `umask` helps you control the default permissions for newly created files and directories.
+**Why:** Advanced permissions management is crucial for fine-grained access
+control. ACLs provide more flexibility than traditional Unix permissions,
+allowing you to specify permissions for individual users and groups.
+Understanding `umask` helps you control the default permissions for newly
+created files and directories.
 
 ### Example
 
@@ -119,7 +126,10 @@ If you're stuck:
 * Manage network connections using `nmcli`.
 * View and modify the routing table using `route`.
 
-**Why:** Network configuration is essential for ensuring proper connectivity and communication between systems. These commands help you configure network interfaces, manage connections, and control routing, enabling you to set up and troubleshoot network settings effectively.
+**Why:** Network configuration is essential for ensuring proper connectivity
+and communication between systems. These commands help you configure network
+interfaces, manage connections, and control routing, enabling you to set up and
+troubleshoot network settings effectively.
 
 ### Example
 
