@@ -11,19 +11,39 @@
 
 ## Introduktion
 
-Linux er et open source-operativsystem, der er kendt for sin stabilitet, sikkerhed og fleksibilitet. Operativsystemet anvendes af mange programmørere og systemadministratorer på grund af dets evne til at tilpasses og modificeres til forskellige formål.
+Linux er et open source-operativsystem, der er kendt for sin stabilitet,
+sikkerhed og fleksibilitet. Operativsystemet anvendes af mange programmørere og
+systemadministratorer på grund af dets evne til at tilpasses og modificeres til
+forskellige formål.
 
 ## Hvorfor Linux?
 
-**Open source:** Linux er et open-source operativsystem, hvilket betyder, at dets kildekode er tilgængelig for alle og kan tilpasses og distribueres frit. Det giver programmører og datateknikkere mulighed for at tilpasse og optimere deres systemer til deres specifikke behov.
+**Open source:** Linux er et open-source operativsystem, hvilket betyder, at
+dets kildekode er tilgængelig for alle og kan tilpasses og distribueres frit.
+Det giver programmører og datateknikkere mulighed for at tilpasse og optimere
+deres systemer til deres specifikke behov.
 
-**Stabilitet og sikkerhed:** Linux er kendt for sin stabilitet og sikkerhed, da det er mindre sårbart over for malware og hacking end Windows og macOS. Dette skyldes bl.a. den strenge adgangskontrol og adskillelse af brugerrettigheder, som er indbygget i Linux.
+**Stabilitet og sikkerhed:** Linux er kendt for sin stabilitet og sikkerhed, da
+det er mindre sårbart over for malware og hacking end Windows og macOS. Dette
+skyldes bl.a. den strenge adgangskontrol og adskillelse af brugerrettigheder,
+som er indbygget i Linux.
 
-**Scaleable:** Linux kan køre på alt fra små enheder til store servere og supercomputere. Dette gør det ideelt til både små og store projekter, og det kan nemt skaleres op eller ned efter behov.
+**Scaleable:** Linux kan køre på alt fra små enheder til store servere og
+supercomputere. Dette gør det ideelt til både små og store projekter, og det
+kan nemt skaleres op eller ned efter behov.
 
-**Frihed til at vælge:** Med Linux har man frihed til at vælge og [tilpasse](https://www.reddit.com/r/unixporn/) sin software, herunder operativsystemet, [desktop environment](https://wiki.gentoo.org/wiki/Desktop_environment), programmer og værktøjer. Det giver programmører og datateknikkere mulighed for at arbejde med de værktøjer, de foretrækker og tilpasse deres arbejdsgange efter deres behov.
+**Frihed til at vælge:** Med Linux har man frihed til at vælge og
+[tilpasse](https://www.reddit.com/r/unixporn/) sin software, herunder
+operativsystemet, [desktop
+environment](https://wiki.gentoo.org/wiki/Desktop_environment), programmer og
+værktøjer. Det giver programmører og datateknikkere mulighed for at arbejde med
+de værktøjer, de foretrækker og tilpasse deres arbejdsgange efter deres behov.
 
-**Fællesskab og support:** Linux har et stort og aktivt [fællesskab](https://www.reddit.com/r/linux/) af udviklere og brugere, som tilbyder gratis support, hjælp og vejledning. Det kan være meget nyttigt for programmører og datateknikkere, der støder på tekniske udfordringer eller har brug for hjælp til at vælge de bedste værktøjer til deres arbejde.
+**Fællesskab og support:** Linux har et stort og aktivt
+[fællesskab](https://www.reddit.com/r/linux/) af udviklere og brugere, som
+tilbyder gratis support, hjælp og vejledning. Det kan være meget nyttigt for
+programmører og datateknikkere, der støder på tekniske udfordringer eller har
+brug for hjælp til at vælge de bedste værktøjer til deres arbejde.
 
 ## Installation
 
@@ -33,7 +53,7 @@ For at installere Linux, skal du først downloade en Linux-distribution. Nogle a
 
 Når du har downloadet ISO filen, kan du "flashe" den på en USB. Det kan du gøre via [Rufus](https://rufus.ie/en/), eller [Balena Etcher](https://www.balena.io/etcher). Det kan være nødvendigt at slå [fast startup](https://help.uaudio.com/hc/en-us/articles/213195423-How-To-Disable-Fast-Startup-in-Windows-10) fra.
 
-Når du har bootet fra USB, vil du blive typisk blive guidet igennem installationsprocessen. Det er MEGET vigtigt at vælge de rigtige partitions til installation af Linux, så sørg for at backupe din data, før du fortsætter.
+Når du har bootet fra USB, vil du typisk blive guidet igennem installationsprocessen. Det er MEGET vigtigt at vælge de rigtige partitions til installation af Linux, så sørg for at backupe din data, før du fortsætter.
 
 > Backup, backup, backup!
 
