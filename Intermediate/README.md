@@ -77,7 +77,8 @@ helping you diagnose and resolve network problems.
 
 **Task Description:**
 
-* List disk partitions using `fdisk`.
+* List disks and partitions using `lsblk`.
+* Create partitions and intialize disk using `gdisk`.
 * Create a filesystem on a partition using `mkfs`.
 * Mount a filesystem using `mount`.
 * Unmount a filesystem using `umount`.
