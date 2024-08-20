@@ -42,13 +42,14 @@ cht.sh/ls`, can show very useful information about ls can be used.
 
 * **Understand how to manage files and directories effectively.**
 
-**Commands to Practice:** `cp`, `mv`, `rm`
+**Commands to Practice:** `cp`, `mv`, `rm`, `touch`
 
 **Task Description:**
 
 * Copy a file from one directory to another using the `cp` command.
 * Rename a file using the `mv` command.
 * Delete a file using the `rm` command.
+* Create a new file using the `touch` command.
 
 **Why:** Managing files and directories is a core task in any operating system.
 These commands help you copy, move, and delete files, which are crucial
